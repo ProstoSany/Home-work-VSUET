@@ -1,0 +1,40 @@
+a{
+	display: block;
+	margin-top: 20px;
+	padding-left: 15px;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.699);
+}
+
+a:hover{
+background: #532fb6;
+border-radius: 4px;
+color: aqua;
+}
+
+.general-style-block{
+	border-top: 1px solid  rgba(80, 79, 79, 0.699);
+	border-right: 4px solid rgba(80, 79, 79, 0.699);
+	border-bottom: 4px solid rgba(80, 79, 79, 0.699);
+	border-left: 1px solid rgba(80, 79, 79, 0.699);
+	background-color: #f6f6f6;
+}
+
+.general-block-element{
+	width: 100%;
+}
+
+.avatar{
+	position: absolute;
+	top: -30px;
+	left: 15px;
+}
+
+.general-font-txt{
+	font-weight: 700;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: rgba(0, 0, 0, 0.699);
+}
+
+

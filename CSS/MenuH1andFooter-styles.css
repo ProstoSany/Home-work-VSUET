@@ -1,0 +1,81 @@
+@import url(common-styles.css);
+body{
+	background-color:#f3e9e9;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+main{
+	flex-grow: 1;
+}
+
+footer{
+	margin-left: 300px;
+}
+
+footer a{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+footer nav a:last-child{
+	margin-left: 800px;
+}
+
+.Menu{
+	position: absolute;
+	top: 0;
+	width: 250px;
+	height: 100%;
+	background-color: #f6f6f6;
+	border-right: solid rgb(179, 175, 175) ;
+}
+
+.Top{
+	display: block;
+	width: 250px;
+	height: 100px;
+}
+
+.Top h1{
+	padding-left: 20px;
+	padding-top: 30px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.699);
+}
+
+.imj{
+	width: 70px;
+	height: 70px;
+	vertical-align: middle;
+}
+
+header{
+	margin-left: 300px;
+	margin-top: 30px;
+}
+
+@media screen and (min-width:800px) and (max-width:1000px){
+	header{
+		margin-left: 250px;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	header{
+		margin-left: 1%;
+		margin-top: 30px;
+	}
+	nav{
+		display: none;
+	}
+}

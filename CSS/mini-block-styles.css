@@ -1,0 +1,137 @@
+@import url(common-styles.css);
+.mini-block{
+	display: flex;
+	margin-left: 300px;
+	margin-right: 1%;
+	margin-top: 35px;
+}
+
+.mini-block-container{
+  display: flex;
+	position: relative;
+  flex:1;
+	height: 150px;
+}
+
+.top-text-indent{
+	padding-top: 30px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.font-text{
+	padding-right: 10px;
+	text-align: right;
+	font-size: 30px;
+}
+
+.avatar-bottom{
+	padding-top: 2px;
+	width: 45px;
+	height: 45px;
+	vertical-align: middle;
+}
+.bottom-text{
+	box-sizing: border-box;
+	padding-top: 2px;
+}
+.transfer{
+	display: flex;
+	flex-basis: 50%;
+}
+.indent{
+	margin-left: 20px;
+}
+@media screen and (min-width:800px) and (max-width:1000px) {
+	.mini-block{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 250px;
+
+	}
+	.mini-block-container{
+		flex: 1;
+	}
+	.transfer>.mini-block-container{
+		margin-top: 30px;
+		flex: 1;
+	}
+	.transfer>.mini-block-container:first-child{
+		margin-left: 0;
+	}
+	.transfer{
+		display: flex;
+		flex-basis: 100%;
+	}
+	.Menu{
+		width: 200px;
+	}
+}
+
+@media screen and (min-width:650px) and (max-width:800px) {
+	.mini-block{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.mini-block-container{
+		flex: 1;
+	}
+	.transfer>.mini-block-container{
+		margin-top: 30px;
+		flex: 1;
+	}
+	.transfer>.mini-block-container:first-child{
+		margin-left: 0;
+	}
+	.transfer{
+		display: flex;
+		flex-basis: 100%;
+	}
+}
+@media screen and (min-width:500px) and (max-width:650px) {
+	.mini-block{
+		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 100%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	
+	.mini-block-container{
+		flex: 1;
+	}
+	.transfer>.mini-block-container{
+		flex: 1;
+		margin-top: 30px;
+	}
+	.transfer>.mini-block-container:first-child{
+		margin-left: 0;
+	}
+	.transfer{
+		display: flex;
+		flex-basis: 100%;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.mini-block{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.indent{
+		margin-left: 0;
+	}
+	.mini-block-container{
+		margin-top: 30px;
+		flex: 1;
+	}
+	.transfer{
+		display: block;
+	}
+}

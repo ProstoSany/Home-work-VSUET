@@ -1,0 +1,98 @@
+@import url(common-styles.css);
+
+.average-block{
+	display: flex;
+	margin-left: 300px;
+	margin-right: 1%;
+	margin-top: 20px;
+}
+
+.container-average-block{
+	display: flex;
+	position: relative;
+  flex:1;
+	height: 300px;
+}
+
+.avatar-bottom-average-block{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+.txt-style{
+	font-size: 20px;
+}
+
+.top-indent{
+	margin-top: 150px;
+	font-size: 30px;
+}
+.indent-two{
+	margin-left: 20px;
+}
+@media screen and (min-width:800px) and (max-width:1000px) {
+	.top-indent{
+		margin-top: 25%;
+		font-size: 25px;
+	}
+	.avatar-bottom-average-block{
+		width: 20px;
+		height: 20px;
+		vertical-align: middle;
+	}
+	.average-block{
+		margin-left: 250px;
+	}
+	
+}
+@media screen and (min-width:650px) and (max-width:800px) {
+	.top-indent{
+		margin-top: 25%;
+		font-size: 25px;
+	}
+	.avatar-bottom-average-block{
+		width: 20px;
+		height: 20px;
+		vertical-align: middle;
+	}
+	.average-block{
+		margin-left: 1%;
+	}
+}
+
+@media screen and (min-width:500px) and (max-width:650px) {
+	.average-block{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.indent-two{
+		margin-left: 0;
+		margin-top: 30px;
+	}
+	
+	.container-average-block{
+		flex: 1;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.average-block{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 1%;
+		margin-right: 1%;
+		flex-direction: column;
+	}
+
+	.indent-two{
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+	.container-average-block{
+		flex: 1;
+	}
+}
